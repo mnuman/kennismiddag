@@ -8,6 +8,7 @@ def count_change(change: int, coins: list[int]) -> int:
     # doorgaan zonder/gebruik eerste muntsoort -> recursie
     pass
 
+
 if __name__ == "__main__":
     print(
         f"""Wisselgeld van {CHANGE} is met de munten {COINS} """

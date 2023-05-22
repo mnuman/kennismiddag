@@ -1,5 +1,6 @@
 CHANGE = 100
-COINS = [1, 5, 10, 25, 50]
+COINS = [1, 5, 10, 25, 50]              # dollar coins
+# COINS = [1, 2, 5, 10, 20, 50, 100]      # euro coins
 
 
 def count_change(change: int, coins: list[int]) -> int:

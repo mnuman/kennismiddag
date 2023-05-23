@@ -4,9 +4,9 @@ COINS = [1, 5, 10, 25, 50]              # dollar coins
 
 
 def count_change(change: int, coins: list[int]) -> int:
-    # succes als change = 0
-    # onmogelijk als change < 0 of coins = []
-    # doorgaan zonder/gebruik eerste muntsoort
+    # succes als change = 0 -> 1
+    # onmogelijk als change < 0 of coins = [] -> 0
+    # doorgaan zonder/gebruik eerste muntsoort -> verder zoeken (recursie)
     pass
 
 
